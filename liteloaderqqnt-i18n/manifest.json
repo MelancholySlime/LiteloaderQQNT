@@ -1,0 +1,21 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "LiteLoaderQQNT-i18n (Vietnamese & English)",
+  "slug": "liteloaderqqnt-i18n",
+  "description": "Gói ngôn ngữ Tiếng Việt & Tiếng Anh toàn diện cho giao diện QQNT (thay thế 0-don/LiteLoaderQQNT-i18n)",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "LiteLoaderQQNT-i18n Community"
+    }
+  ],
+  "platform": [
+    "win32",
+    "linux",
+    "darwin"
+  ],
+  "injects": {
+    "renderer": "./renderer.js"
+  }
+}

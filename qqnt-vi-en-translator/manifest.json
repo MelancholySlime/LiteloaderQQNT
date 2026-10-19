@@ -1,0 +1,13 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "QQNT Vietnamese/English Translator",
+  "slug": "qqnt-vi-en-translator",
+  "description": "Dịch giao diện QQNT sang Tiếng Việt / Tiếng Anh an toàn",
+  "version": "1.0.0",
+  "authors": [{ "name": "Localizer" }],
+  "platform": ["win32", "linux", "darwin"],
+  "injects": {
+    "renderer": "./renderer.js"
+  }
+}
